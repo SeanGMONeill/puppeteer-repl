@@ -1,0 +1,23 @@
+{
+  "name": "puppeteer-interactive",
+  "version": "1.0.0",
+  "description": "Launches user's own install of Chrome in 'inspect' mode, and initializes a repl window to control the Chrome window with Puppeteer",
+  "main": "repup.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node repup.js"
+  },
+  "keywords": [
+    "puppeteer",
+    "repl",
+    "utility"
+  ],
+  "dependencies": {
+    "repl": "*",
+    "axios": "*",
+    "chrome-launcher": "*",
+    "puppeteer-core": ">=1.4.0"
+  },
+  "author": "Sean O'Neill",
+  "license": "ISC"
+}
