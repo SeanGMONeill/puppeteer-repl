@@ -1,6 +1,4 @@
-const exec = require('child_process').execFile;
 const repl = require('repl');
-const delay = require('delay');
 const axios = require('axios').default; //Alternative to request lib, as that's deprecated
 const chromeLaunch = require('chrome-launcher'); //Apparently there's a package for everything
 const puppeteer = require('puppeteer-core');
